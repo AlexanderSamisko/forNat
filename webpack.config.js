@@ -44,9 +44,5 @@ module.exports = {
       },
     ),
     new CleanWebpackPlugin(),
-  ],
-  devServer: {
-    compress: true,
-    public: 'fronttora.onrender.com'
-  }
+  ]
 };
