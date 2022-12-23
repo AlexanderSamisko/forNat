@@ -167,11 +167,9 @@
   },
   "scripts": {
     "start": "webpack serve --mode development",
-    "start2": "webpack serve --port 8090 --mode development",
     "build": "webpack --mode production",
     "lint": "eslint . --fix",
-    "test": "jest --passWithNoTests",
-    "startAdd": "forever -w ./BackEnd/server.js"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
