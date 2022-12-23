@@ -3,7 +3,7 @@ import makeRadio from "./MakeRadio"
 
 export default class Questionaries {
     constructor() {
-        this.api = new API(`http://localhost:7070`);
+        this.api = new API(`https://backtora.onrender.com`);
         this.iterator = 0;
         this.pullQuestions();
         this.answers = {};
