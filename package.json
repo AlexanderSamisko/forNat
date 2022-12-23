@@ -167,7 +167,7 @@
     "ws": "^8.8.1"
   },
   "scripts": {
-    "start": "webpack --mode production",
+    "start": "webpack serve --mode development",
     "start2": "webpack serve --port 8090 --mode development",
     "build": "webpack --mode production",
     "lint": "eslint . --fix",
